@@ -1,0 +1,35 @@
+PODS:
+  - React/Core (0.38.0)
+  - React/RCTImage (0.38.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.38.0):
+    - React/Core
+  - React/RCTText (0.38.0):
+    - React/Core
+  - URLRouter (1.1.0)
+
+DEPENDENCIES:
+  - React/Core
+  - React/RCTImage
+  - React/RCTNetwork
+  - React/RCTText
+  - URLRouter (from `https://github.com/aichamorro/URLRouter`, branch `master`)
+
+EXTERNAL SOURCES:
+  URLRouter:
+    :branch: master
+    :git: https://github.com/aichamorro/URLRouter
+
+CHECKOUT OPTIONS:
+  URLRouter:
+    :commit: 3a29ef709236a61f39ed9370f0c2b2583a16f9c8
+    :git: https://github.com/aichamorro/URLRouter
+
+SPEC CHECKSUMS:
+  React: 4804f613d94ebf40c9a6c7503f88d63be3afe51f
+  URLRouter: 82ea8d4e4d7914b6ecec5a04283ce7a05dab1bcb
+
+PODFILE CHECKSUM: 03fada6102c3ca316daade7066aa2be0cc8954b4
+
+COCOAPODS: 1.1.1
